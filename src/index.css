@@ -1,0 +1,102 @@
+@import 'modern-normalize/modern-normalize.css';
+
+:root {
+	color-scheme: light;
+	color: var(--neutrals-60);
+	background-color: var(--neutrals-0);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	--font-family-base: 'Rubik', sans-serif;
+	--font-family-additional: 'Lato', sans-serif;
+
+	--font-size-base: 16px;
+	--font-weight-base: 400;
+	--line-height-base: 1.6;
+	--transition-base: all 0.3s ease;
+
+	--neutrals-0: #fff;
+	--neutrals-20: #d6ddeb;
+	--neutrals-40: #a8adb7;
+	--neutrals-60: #7c8493;
+	--neutrals-80: #515b6f;
+	--neutrals-100: #25324b;
+
+	--brands-primary: #4640de;
+	--accents-blue: #26a4ff;
+}
+
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: var(--font-family-base);
+	font-size: var(--font-size-base);
+	font-weight: var(--font-weight-base);
+	line-height: var(--line-height-base);
+	font-optical-sizing: auto;
+	font-display: swap;
+
+	/* margin: 0;
+	display: flex;
+	place-items: center;
+	min-width: 320px;
+	min-height: 100vh; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	font-optical-sizing: inherit;
+	margin: 0;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	font-optical-sizing: inherit;
+	color: currentColor;
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	font-optical-sizing: inherit;
+	font-display: inherit;
+	transition: var(--transition-base);
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
