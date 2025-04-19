@@ -1,10 +1,13 @@
 import s from './Header.module.css';
+import Navigation from '../Navigation/Navigation';
 
 const Header = () => {
 	return (
-		<div>
-			<p>Header</p>
-		</div>
+		<header className={s.header}>
+			<div className={`container ${s.wrapper}`}>
+				<Navigation />
+			</div>
+		</header>
 	);
 };
 

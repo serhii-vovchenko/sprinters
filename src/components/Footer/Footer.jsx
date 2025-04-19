@@ -2,9 +2,9 @@ import s from './Footer.module.css';
 
 const Footer = () => {
 	return (
-		<div>
+		<footer>
 			<p>Footer</p>
-		</div>
+		</footer>
 	);
 };
 

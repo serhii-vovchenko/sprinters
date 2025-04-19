@@ -1,0 +1,31 @@
+.list {
+	display: flex;
+	gap: 32px;
+}
+
+.item {
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.text {
+	color: var(--brands-primary);
+	font-weight: 600;
+}
+
+.websiteIcon {
+	width: 24px;
+	height: 24px;
+	fill: transparent;
+	stroke: var(--brands-primary);
+}
+
+.phoneIcon {
+	width: 24px;
+	height: 24px;
+	fill: var(--brands-primary);
+}

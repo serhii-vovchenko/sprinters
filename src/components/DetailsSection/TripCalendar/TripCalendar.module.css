@@ -1,0 +1,50 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.title {
+	color: var(--neutrals-100);
+	font-family: var(--font-family-additional);
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 1.2;
+}
+
+.calendarBox {
+	padding: 24px 24px 24px 32px;
+	height: 367px;
+	border: 1px solid var(--neutrals-20);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+
+	padding: 12px 16px;
+	background-color: transparent;
+	border: 1px solid var(--brands-secondary);
+}
+
+.buttonSvg {
+	width: 20px;
+	height: 20px;
+	fill: var(--brands-primary);
+}
+
+.buttonText {
+	color: var(--brands-primary);
+	font-weight: 700;
+}
+
+.calendarContainer {
+}

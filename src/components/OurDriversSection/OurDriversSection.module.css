@@ -1,0 +1,94 @@
+.section {
+}
+
+.wrapper {
+	padding-top: 72px;
+	padding-bottom: 72px;
+	display: flex;
+	flex-direction: column;
+	gap: 11px;
+}
+
+.headWrapper {
+	display: flex;
+	justify-content: space-between;
+	gap: 16px;
+}
+
+.title {
+	color: var(--neutrals-100);
+	font-family: var(--font-family-additional);
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 1.2;
+}
+
+.button {
+	background-color: transparent;
+	border-color: transparent;
+
+	color: var(--brands-primary);
+	font-weight: 600;
+}
+
+.list {
+	display: flex;
+	gap: 16px;
+}
+
+.item {
+	width: 243px;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+
+	border-radius: 4px;
+	border: 1px solid var(--neutrals-20);
+}
+
+.avatarThumb {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.avatarImg {
+	object-fit: cover;
+	height: 100%;
+}
+
+.driverInfoBox {
+}
+
+.driverName {
+	color: var(--neutrals-100);
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.driverExperience {
+	text-align: center;
+}
+
+.socList {
+	display: flex;
+	gap: 12px;
+}
+
+.socItem {
+	flex-shrink: 0;
+}
+
+.socLink {
+}
+
+.socIcon {
+	width: 24px;
+	height: 24px;
+	fill: transparent;
+	stroke: var(--neutrals-60);
+}

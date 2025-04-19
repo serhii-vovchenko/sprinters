@@ -1,16 +1,9 @@
 import './App.css';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import CarrierProfilePage from './pages/CarrierProfile/CarrierProfilePage';
+import { RouterProvider } from 'react-router-dom';
+import router from './routes/index.jsx';
 
 function App() {
-	return (
-		<>
-			<Header />
-			<CarrierProfilePage />
-			<Footer />
-		</>
-	);
+	return <RouterProvider router={router} />;
 }
 
 export default App;

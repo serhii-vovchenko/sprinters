@@ -1,0 +1,41 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.title {
+	color: var(--neutrals-100);
+	font-family: var(--font-family-additional);
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 1.2;
+}
+
+.list {
+	display: flex;
+	gap: 16px;
+}
+
+.item {
+	padding: 8px;
+	border: 1px solid var(--brands-primary);
+}
+
+.link {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+
+.socIcon {
+	width: 24px;
+	height: 24px;
+	fill: var(--brands-primary);
+}
+
+.text {
+	color: var(--brands-primary);
+	font-weight: 500;
+}

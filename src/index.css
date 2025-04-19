@@ -19,6 +19,7 @@
 	--transition-base: all 0.3s ease;
 
 	--neutrals-0: #fff;
+	--neutrals-10i: #f8f8fd;
 	--neutrals-20: #d6ddeb;
 	--neutrals-40: #a8adb7;
 	--neutrals-60: #7c8493;
@@ -26,6 +27,7 @@
 	--neutrals-100: #25324b;
 
 	--brands-primary: #4640de;
+	--brands-secondary: #ccccf5;
 	--accents-blue: #26a4ff;
 }
 
@@ -41,12 +43,6 @@ body {
 	line-height: var(--line-height-base);
 	font-optical-sizing: auto;
 	font-display: swap;
-
-	/* margin: 0;
-	display: flex;
-	place-items: center;
-	min-width: 320px;
-	min-height: 100vh; */
 }
 
 h1,
@@ -82,6 +78,8 @@ a {
 	font-optical-sizing: inherit;
 	color: currentColor;
 	text-decoration: none;
+	padding: 0;
+	margin: 0;
 }
 
 button {
@@ -97,6 +95,14 @@ button {
 
 img {
 	display: block;
-	max-width: 100%;
+	width: 100%;
 	height: auto;
+	padding: 0;
+	object-fit: cover;
+}
+
+.container {
+	padding: 0 124px;
+	max-width: 1440px;
+	margin: 0 auto;
 }

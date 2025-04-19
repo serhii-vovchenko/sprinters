@@ -1,0 +1,19 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.title {
+	color: var(--neutrals-100);
+	font-family: var(--font-family-additional);
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 1.2;
+}
+
+.description {
+	color: var(--neutrals-80);
+	text-align: justify;
+}

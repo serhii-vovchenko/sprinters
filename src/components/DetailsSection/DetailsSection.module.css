@@ -1,0 +1,41 @@
+.section {
+}
+
+.wrapper {
+	display: flex;
+	gap: 64px;
+	padding-top: 79px;
+	border-block-start: 72px;
+	position: relative;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 3px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 1192px;
+		height: 1px;
+		background-color: var(--neutrals-20);
+	}
+}
+
+.firstColumn {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	max-width: 752px;
+}
+
+.headBlock {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.secondColumn {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 64px;
+}
