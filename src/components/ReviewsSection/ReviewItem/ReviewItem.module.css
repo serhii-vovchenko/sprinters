@@ -5,6 +5,7 @@
 	width: 353px;
 	height: 411px;
 	padding: 30px 20px;
+	background-color: var(--neutrals-0);
 
 	border-radius: 10px;
 	box-shadow: 0px 4px 16px 0px rgba(37, 50, 75, 0.15);
@@ -19,6 +20,7 @@
 	width: 72px;
 	height: 72px;
 	border-radius: 50%;
+	overflow: hidden;
 }
 
 .clientInfo {

@@ -45,6 +45,12 @@
 	font-style: normal;
 	font-weight: 700;
 	line-height: 1.4;
+
+	transition: var(--transition-base);
+
+	&:hover {
+		background-color: var(--accents-blue);
+	}
 }
 
 .secondColumn {

@@ -21,6 +21,12 @@
 	color: var(--neutrals-80);
 	font-weight: 600;
 	position: relative;
+
+	transition: var(--transition-base);
+
+	&:hover {
+		color: var(--brands-primary);
+	}
 }
 
 .activeLink {
@@ -54,6 +60,12 @@
 	color: var(--brands-primary);
 	text-align: center;
 	font-weight: 700;
+
+	transition: var(--transition-base);
+
+	&:hover {
+		color: var(--accents-blue);
+	}
 }
 
 .loginLink {
@@ -63,6 +75,12 @@
 	color: var(--neutrals-0);
 	font-weight: 700;
 	position: relative;
+
+	transition: var(--transition-base);
+
+	&:hover {
+		background-color: var(--accents-blue);
+	}
 
 	&::before {
 		content: '';
