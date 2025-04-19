@@ -27,3 +27,14 @@
 	flex-direction: column;
 	gap: 12px;
 }
+
+@media screen and (max-width: 845px) {
+	.bottomContainer {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.secondColumn {
+		align-items: center;
+	}
+}

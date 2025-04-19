@@ -30,6 +30,11 @@ const ReviewsSection = () => {
 						<span className={s.bullet}></span>
 						<span className={s.bullet}></span>
 						<span className={s.bullet}></span>
+						<span className={s.bullet}></span>
+						<span className={s.bullet}></span>
+						<span className={s.bullet}></span>
+						<span className={s.bullet}></span>
+						<span className={s.bullet}></span>
 					</div>
 				</div>
 			</div>

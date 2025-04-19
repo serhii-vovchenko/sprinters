@@ -29,9 +29,7 @@
 
 .clientName {
 	color: var(--neutrals-100);
-	/*  */
-	font-family: Roboto;
-	/*  */
+	font-family: var(--font-family-secondary);
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 600;
@@ -40,9 +38,7 @@
 
 .clientCity {
 	color: var(--brands-primary);
-	/*  */
-	font-family: Roboto;
-	/*  */
+	font-family: var(--font-family-secondary);
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 500;
@@ -51,9 +47,7 @@
 
 .date {
 	color: var(--neutrals-60);
-	/*  */
-	font-family: Roboto;
-	/*  */
+	font-family: var(--font-family-secondary);
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;

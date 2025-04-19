@@ -12,6 +12,7 @@
 
 	--font-family-base: 'Rubik', sans-serif;
 	--font-family-additional: 'Lato', sans-serif;
+	--font-family-secondary: 'Roboto', sans-serif;
 
 	--font-size-base: 16px;
 	--font-weight-base: 400;
@@ -29,6 +30,7 @@
 	--brands-primary: #4640de;
 	--brands-secondary: #ccccf5;
 	--accents-blue: #26a4ff;
+	--footer-bg: #202430;
 }
 
 html {
@@ -105,4 +107,22 @@ img {
 	padding: 0 124px;
 	max-width: 1440px;
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 1300px) {
+	.container {
+		padding: 0 80px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		padding: 0 40px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.container {
+		padding: 0 15px;
+	}
 }

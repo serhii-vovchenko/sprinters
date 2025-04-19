@@ -39,3 +39,35 @@
 	color: var(--brands-primary);
 	font-weight: 500;
 }
+
+@media screen and (max-width: 1070px) {
+	.link {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.text {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 930px) {
+	.text {
+		display: block;
+	}
+
+	.link {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 545px) {
+	.link {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.text {
+		display: none;
+	}
+}

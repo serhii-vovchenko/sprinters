@@ -10,3 +10,9 @@
 	width: 160px;
 	height: 29px;
 }
+
+@media screen and (max-width: 768px) {
+	.headerLogo {
+		position: static;
+	}
+}

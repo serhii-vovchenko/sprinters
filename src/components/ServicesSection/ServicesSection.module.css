@@ -15,7 +15,8 @@
 		top: 3px;
 		left: 50%;
 		transform: translateX(-50%);
-		width: 1192px;
+		width: 100%;
+		max-width: 1192px;
 		height: 1px;
 		background-color: var(--neutrals-20);
 	}
@@ -62,9 +63,32 @@
 
 .serviceName {
 	color: var(--neutrals-100);
-	font-feature-settings: 'cv11' on;
 	font-family: var(--font-family-additional);
 	font-size: 24px;
 	font-weight: 800;
 	line-height: 1.2;
+}
+
+@media screen and (max-width: 1420px) {
+	.list {
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		gap: 16px;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	.item {
+		width: calc((100% - 16px) / 2);
+	}
+
+	.list {
+		justify-content: start;
+	}
+}
+
+@media screen and (max-width: 555px) {
+	.item {
+		width: 100%;
+	}
 }

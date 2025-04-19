@@ -1,0 +1,182 @@
+.footer {
+	background-color: var(--footer-bg);
+}
+
+.wrapper {
+	padding-top: 64px;
+	padding-bottom: 44px;
+}
+
+.headBlock {
+	padding-bottom: 66px;
+	border-bottom: 2px solid #363a45;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.firstColumn {
+	display: flex;
+	flex-direction: column;
+	gap: 39px;
+	width: 100%;
+	max-width: 376px;
+}
+
+.companyInfo {
+	color: var(--neutrals-20);
+	font-size: 20px;
+}
+
+.middleColumn {
+	width: 100%;
+	max-width: 364px;
+	display: flex;
+	gap: 50px;
+}
+
+.firstList {
+	& ul {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+}
+
+.secondList {
+	& ul {
+		display: flex;
+		flex-direction: column;
+		gap: 23px;
+	}
+}
+
+.listTitle {
+	color: var(--neutrals-0);
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 18px;
+}
+
+.listItem {
+}
+.listLink {
+	color: var(--neutrals-20);
+}
+
+.lastColumn {
+	padding-left: 10px;
+	width: 364px;
+}
+
+.listText {
+	width: 306px;
+	color: var(--Neutrals-20);
+	margin-bottom: 30px;
+}
+
+.form {
+	display: flex;
+	gap: 8px;
+	margin-bottom: 20px;
+}
+
+.input {
+	padding: 12px 16px;
+	outline: none;
+	border: transparent;
+	color: var(--Neutrals-40);
+}
+
+.button {
+	padding: 12px 14px;
+
+	background-color: var(--brands-primary);
+	border: transparent;
+
+	color: var(--neutrals-0);
+	font-weight: 700;
+}
+
+.contactList {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.contactItem {
+}
+
+.contactLink {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.contactIcon {
+	width: 24px;
+	height: 24px;
+	fill: var(--accents-blue);
+}
+
+.contactText {
+	color: var(--neutrals-40);
+}
+
+.bottomBlock {
+	padding-top: 42px;
+	display: flex;
+	gap: 16px;
+	justify-content: space-between;
+}
+
+.reserved {
+	color: var(--neutrals-60);
+	font-weight: 500;
+}
+
+.bottomSocList {
+	display: flex;
+	gap: 24px;
+}
+
+.bottomSocItem {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--neutrals-80);
+}
+
+.bottomSocIcon {
+	width: 24px;
+	height: 24px;
+	fill: transparent;
+	stroke: var(--neutrals-0);
+}
+
+@media screen and (max-width: 1432px) {
+	.headBlock {
+		justify-content: space-between;
+	}
+
+	.lastColumn {
+		padding-left: 0;
+	}
+}
+
+@media screen and (max-width: 940px) {
+	.headBlock {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 585px) {
+	.bottomBlock {
+		flex-direction: column;
+		align-items: center;
+	}
+}

@@ -48,3 +48,10 @@
 
 .calendarContainer {
 }
+
+@media screen and (max-width: 930px) {
+	.calendarBox {
+		width: 350px;
+		margin: 0 auto;
+	}
+}

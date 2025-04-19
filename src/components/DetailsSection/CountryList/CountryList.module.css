@@ -58,3 +58,11 @@
 	stroke: var(--brands-primary);
 	margin: 0 5px;
 }
+
+@media screen and (max-width: 930px) {
+	.list {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+}

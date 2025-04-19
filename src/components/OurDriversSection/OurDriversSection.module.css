@@ -26,18 +26,19 @@
 .button {
 	background-color: transparent;
 	border-color: transparent;
-
 	color: var(--brands-primary);
 	font-weight: 600;
 }
 
 .list {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 	gap: 16px;
 }
 
 .item {
-	width: 243px;
+	width: 225px;
 	padding: 24px;
 	display: flex;
 	flex-direction: column;

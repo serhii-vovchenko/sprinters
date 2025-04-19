@@ -1,5 +1,6 @@
 .list {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 32px;
 }
 
@@ -33,4 +34,22 @@
 .value {
 	color: var(--neutrals-100);
 	font-weight: 600;
+}
+
+@media screen and (max-width: 845px) {
+	.list {
+		justify-content: space-evenly;
+		gap: 16px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 534px) {
+	.item {
+		width: calc((100% - 16px) / 2);
+	}
+
+	.list {
+		justify-content: start;
+	}
 }

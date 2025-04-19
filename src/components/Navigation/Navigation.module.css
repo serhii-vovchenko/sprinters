@@ -2,7 +2,6 @@
 	display: flex;
 	justify-content: space-between;
 	gap: 16px;
-	height: 78px;
 }
 
 .wrapper {
@@ -15,6 +14,7 @@
 	padding-top: 24px;
 	height: 100%;
 	gap: 24px;
+	padding-bottom: 28px;
 }
 
 .link {
@@ -50,7 +50,7 @@
 }
 
 .registerLink {
-	padding: 2px 24px;
+	padding: 12px 24px;
 	color: var(--brands-primary);
 	text-align: center;
 	font-weight: 700;
@@ -72,5 +72,57 @@
 		top: 1px;
 		left: -16px;
 		background-color: var(--neutrals-20);
+	}
+}
+
+@media screen and (max-width: 1285px) {
+	.firstList {
+		& li {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+	.registerLink {
+		padding: 12px 0;
+	}
+
+	.loginLink {
+		padding: 12px;
+	}
+}
+
+@media screen and (max-width: 1285px) {
+	.secondList {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 855px) {
+	.navigation {
+		padding-bottom: 4px;
+	}
+
+	.firstList {
+		gap: 12px;
+	}
+
+	.link {
+		font-weight: 400;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.firstList {
+		display: none;
+	}
+
+	.navigation {
+		padding-bottom: 16px;
+
+		display: flex;
+		justify-content: center;
 	}
 }
