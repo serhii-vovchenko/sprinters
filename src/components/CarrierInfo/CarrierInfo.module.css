@@ -1,5 +1,9 @@
 .section {
 	background-color: var(--neutrals-10i);
+	background-image: url(../../assets/images/bg-hero-min.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .wrapper {

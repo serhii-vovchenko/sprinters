@@ -1,5 +1,9 @@
 .section {
 	background-color: var(--neutrals-10i);
+	background-image: url(../../assets/images/bg-rew-min.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right bottom;
 }
 
 .wrapper {
