@@ -121,25 +121,31 @@ const Footer = () => {
 					<ul className={s.bottomSocList}>
 						<li className={s.bottomSocItem}>
 							<svg className={s.bottomSocIcon} width="24" height="24">
-								<use href={`${sprite}#icon-facebook`}></use>
+								<use href={`${sprite}#icon-facebook-footer`}></use>
 							</svg>
 						</li>
 
 						<li className={s.bottomSocItem}>
 							<svg className={s.bottomSocIcon} width="24" height="24">
-								<use href={`${sprite}#icon-instagram`}></use>
+								<use href={`${sprite}#icon-instagram-footer`}></use>
 							</svg>
 						</li>
 
 						<li className={s.bottomSocItem}>
 							<svg className={s.bottomSocIcon} width="24" height="24">
-								<use href={`${sprite}#icon-linkedin`}></use>
+								<use href={`${sprite}#icon-web-footer`}></use>
 							</svg>
 						</li>
 
 						<li className={s.bottomSocItem}>
 							<svg className={s.bottomSocIcon} width="24" height="24">
-								<use href={`${sprite}#icon-twitter`}></use>
+								<use href={`${sprite}#icon-linkedin-footer`}></use>
+							</svg>
+						</li>
+
+						<li className={s.bottomSocItem}>
+							<svg className={s.bottomSocIcon} width="24" height="24">
+								<use href={`${sprite}#icon-twitter-footer`}></use>
 							</svg>
 						</li>
 					</ul>
