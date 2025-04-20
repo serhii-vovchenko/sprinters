@@ -52,10 +52,8 @@
 }
 
 .buttonIcon {
-	width: 14px;
-	height: 7px;
-	fill: transparent;
-	stroke: var(--brands-primary);
+	width: 16px;
+	height: 10px;
 	margin: 0 5px;
 }
 

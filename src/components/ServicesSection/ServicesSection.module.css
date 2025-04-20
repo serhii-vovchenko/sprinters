@@ -56,8 +56,6 @@
 .serviceIcon {
 	width: 48px;
 	height: 48px;
-	fill: transparent;
-	stroke: var(--brands-primary);
 	flex-shrink: 0;
 }
 

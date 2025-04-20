@@ -23,8 +23,6 @@
 .itemSvg {
 	width: 24px;
 	height: 24px;
-	fill: transparent;
-	stroke: var(--accents-blue);
 }
 
 .title {

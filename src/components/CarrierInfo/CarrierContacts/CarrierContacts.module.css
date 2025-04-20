@@ -17,15 +17,7 @@
 	font-weight: 600;
 }
 
-.websiteIcon {
+.contactIcon {
 	width: 24px;
 	height: 24px;
-	fill: transparent;
-	stroke: var(--brands-primary);
-}
-
-.phoneIcon {
-	width: 24px;
-	height: 24px;
-	fill: var(--brands-primary);
 }

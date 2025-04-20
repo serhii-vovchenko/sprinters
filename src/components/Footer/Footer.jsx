@@ -99,7 +99,7 @@ const Footer = () => {
 							<li className={s.contactItem}>
 								<a className={s.contactLink} href="tel:380735555555">
 									<svg className={s.contactIcon} width="24" height="24">
-										<use href={`${sprite}#icon-phone`} />
+										<use href={`${sprite}#icon-phone-1`} />
 									</svg>
 									<span className={s.contactText}>+ 38 (073) 555 55 55</span>
 								</a>
