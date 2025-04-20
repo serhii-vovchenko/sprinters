@@ -1,5 +1,6 @@
 import s from './TripCalendar.module.css';
 import sprite from '../../../assets/images/sprite.svg';
+import MyCalendar from '../../Calendar/Calendar';
 
 const TripCalendar = () => {
 	return (
@@ -13,7 +14,7 @@ const TripCalendar = () => {
 					<span className={s.buttonText}>Купити квиток</span>
 				</button>
 				<div className={s.calendarContainer}>
-					<p>Календар</p>
+					<MyCalendar />
 				</div>
 			</div>
 		</div>
