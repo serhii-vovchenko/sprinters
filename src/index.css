@@ -104,20 +104,14 @@ img {
 }
 
 .container {
-	padding: 0 124px;
-	max-width: 1440px;
+	padding: 0 50px;
+	max-width: 1292px;
 	margin: 0 auto;
-}
-
-@media screen and (max-width: 1300px) {
-	.container {
-		padding: 0 80px;
-	}
 }
 
 @media screen and (max-width: 768px) {
 	.container {
-		padding: 0 40px;
+		padding: 0 30px;
 	}
 }
 

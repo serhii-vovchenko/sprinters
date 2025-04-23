@@ -6,7 +6,6 @@
 
 .wrapper {
 	display: flex;
-	/* gap: 48px; */
 }
 
 .firstList {
@@ -93,7 +92,7 @@
 	}
 }
 
-@media screen and (max-width: 1285px) {
+@media screen and (max-width: 1170px) {
 	.firstList {
 		& li {
 			display: flex;
@@ -111,7 +110,7 @@
 	}
 }
 
-@media screen and (max-width: 1285px) {
+@media screen and (max-width: 1100px) {
 	.secondList {
 		display: none;
 	}
